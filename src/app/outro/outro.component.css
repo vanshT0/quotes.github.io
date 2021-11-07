@@ -1,0 +1,81 @@
+.cont{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(240,240,240);
+    box-sizing: border-box;
+    font-family: 'museo_sans500',Arial
+}
+.top{
+    
+    width: 80%;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 100px;
+   
+    height: 60%;
+    display: flex;  
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+   
+    
+}
+.sect{
+    width: 20%;
+   height: 100%;
+   margin-right: 20px;
+}
+
+.compo{
+    font-size: 12px;
+   
+}
+.heading{
+    width: 200px;
+    font-size: 13px;
+    color: rgb(247,140,54);
+    padding-bottom: 7px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    width: 120px;
+    margin-bottom: 5px;
+}
+.ele{
+    color: black;
+   
+}
+.ele:hover{
+    cursor: pointer;
+    color: rgb(247,140,54);
+}
+.icon{
+    margin-right: 15px;
+}
+
+.bottom{
+    height: 40%;
+  
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    
+  
+    flex-direction: column;
+   
+
+}
+
+.follow,.social{
+
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    color: rgb(247,140,54);;
+    
+}
