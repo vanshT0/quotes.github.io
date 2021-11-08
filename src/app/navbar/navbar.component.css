@@ -22,7 +22,7 @@ a{
 
 .navbar-nav{
     position: relative;
-    left: 235px;
+    left: 200px;
     padding-bottom: 20px;
 }
 .nav-item{
@@ -52,5 +52,5 @@ a{
     height: 35px;
 }
 .login{
-    float: right;
+    float: left;
 }

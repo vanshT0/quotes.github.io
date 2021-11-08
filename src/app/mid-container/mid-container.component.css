@@ -1,0 +1,114 @@
+.car{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 2px solid #fb893a;
+
+}
+
+h1{
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.details{
+    display: flex;
+    
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.child{
+    width:90%;
+    
+    display: flex;
+}
+.rbn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 35px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    background-color: #eaeaea;
+}
+a{
+    padding-left: 5px;
+  
+}
+.info{
+    width: 66.66%;
+    
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    color: #666;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.search{
+
+    width: 33.33%;
+    
+    justify-content: center;
+    
+}
+
+.search-box{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px 15px;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+.search-heading{
+    font-size: 26px;
+    width: 100%;
+    color: #fff;
+    background-color: #f28500;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 12px;
+    margin-bottom: 30px;
+
+}
+
+.vehicle-in,.submit-in,.year-in{
+    justify-content: center;
+    display: flex;
+}
+.vehicle,.submit,.year{
+    padding: 0px 25px;
+    margin-bottom: 30px;
+   width: 80%;
+   height: 50px;
+}
+.submit{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f28500;
+    color: white;
+    border: none;
+}
+.submit:hover{
+  cursor: pointer;
+    background-color: #f28500;
+    color: black;
+    border: none;
+}
